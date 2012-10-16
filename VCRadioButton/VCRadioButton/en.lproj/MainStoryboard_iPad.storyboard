@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2843" systemVersion="12C60" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1929"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="4">
+            <objects>
+                <viewController id="2" customClass="VCViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Group 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rF0-5p-hNb">
+                                <rect key="frame" x="20" y="20" width="62" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="No Group" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Fcu-MQ-FqF">
+                                <rect key="frame" x="20" y="87" width="74" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Group 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="563-HE-uN2">
+                                <rect key="frame" x="20" y="154" width="62" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" id="WS2-oe-SQt" customClass="VCRadioButton">
+                                <rect key="frame" x="23" y="49" width="30" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="aJO-C6-fbs" customClass="VCRadioButton">
+                                <rect key="frame" x="61" y="49" width="30" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="YZJ-Bo-Rdi" customClass="VCRadioButton">
+                                <rect key="frame" x="99" y="49" width="30" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="leI-HE-XOl" customClass="VCRadioButton">
+                                <rect key="frame" x="23" y="116" width="30" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="1VK-Gu-52H" customClass="VCRadioButton">
+                                <rect key="frame" x="61" y="116" width="30" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="eYS-cM-8T5" customClass="VCRadioButton">
+                                <rect key="frame" x="99" y="116" width="30" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="xq8-zw-rYM" customClass="VCRadioButton">
+                                <rect key="frame" x="23" y="183" width="30" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="qX2-mR-2JF" customClass="VCRadioButton">
+                                <rect key="frame" x="61" y="183" width="30" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="4MH-N7-BVO" customClass="VCRadioButton">
+                                <rect key="frame" x="99" y="183" width="30" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="group1RadioButton1" destination="WS2-oe-SQt" id="w0L-EP-nql"/>
+                        <outlet property="group1RadioButton2" destination="aJO-C6-fbs" id="aNT-ZU-M9d"/>
+                        <outlet property="group1RadioButton3" destination="YZJ-Bo-Rdi" id="YyV-Zx-lWa"/>
+                        <outlet property="group2RadioButton1" destination="xq8-zw-rYM" id="Nfm-cS-wEA"/>
+                        <outlet property="group2RadioButton2" destination="qX2-mR-2JF" id="o5i-CK-38N"/>
+                        <outlet property="group2RadioButton3" destination="4MH-N7-BVO" id="2hN-De-63V"/>
+                        <outlet property="noGroupRadioButton1" destination="leI-HE-XOl" id="LAj-Hi-XgY"/>
+                        <outlet property="noGroupRadioButton2" destination="1VK-Gu-52H" id="yBI-TI-eEM"/>
+                        <outlet property="noGroupRadioButton3" destination="eYS-cM-8T5" id="l6l-RA-E4g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="VCRadioButton" superclassName="UIControl">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/VCRadioButton.h"/>
+        </class>
+        <class className="VCViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/VCViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="group1RadioButton1" candidateClass="VCRadioButton"/>
+                <relationship kind="outlet" name="group1RadioButton2" candidateClass="VCRadioButton"/>
+                <relationship kind="outlet" name="group1RadioButton3" candidateClass="VCRadioButton"/>
+                <relationship kind="outlet" name="group2RadioButton1" candidateClass="VCRadioButton"/>
+                <relationship kind="outlet" name="group2RadioButton2" candidateClass="VCRadioButton"/>
+                <relationship kind="outlet" name="group2RadioButton3" candidateClass="VCRadioButton"/>
+                <relationship kind="outlet" name="noGroupRadioButton1" candidateClass="VCRadioButton"/>
+                <relationship kind="outlet" name="noGroupRadioButton2" candidateClass="VCRadioButton"/>
+                <relationship kind="outlet" name="noGroupRadioButton3" candidateClass="VCRadioButton"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

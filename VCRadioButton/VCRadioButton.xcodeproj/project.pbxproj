@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB959F77162E1CF40087996F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB959F76162E1CF40087996F /* UIKit.framework */; };
+		DB959F79162E1CF40087996F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB959F78162E1CF40087996F /* Foundation.framework */; };
+		DB959F7B162E1CF40087996F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB959F7A162E1CF40087996F /* CoreGraphics.framework */; };
+		DB959F81162E1CF40087996F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB959F7F162E1CF40087996F /* InfoPlist.strings */; };
+		DB959F83162E1CF40087996F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB959F82162E1CF40087996F /* main.m */; };
+		DB959F87162E1CF40087996F /* VCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB959F86162E1CF40087996F /* VCAppDelegate.m */; };
+		DB959F89162E1CF40087996F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DB959F88162E1CF40087996F /* Default.png */; };
+		DB959F8B162E1CF40087996F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB959F8A162E1CF40087996F /* Default@2x.png */; };
+		DB959F8D162E1CF40087996F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB959F8C162E1CF40087996F /* Default-568h@2x.png */; };
+		DB959F90162E1CF40087996F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB959F8E162E1CF40087996F /* MainStoryboard_iPhone.storyboard */; };
+		DB959F93162E1CF40087996F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB959F91162E1CF40087996F /* MainStoryboard_iPad.storyboard */; };
+		DB959F96162E1CF40087996F /* VCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB959F95162E1CF40087996F /* VCViewController.m */; };
+		DB959F9E162E1DB60087996F /* VCRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DB959F9D162E1DB60087996F /* VCRadioButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB959F72162E1CF40087996F /* VCRadioButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCRadioButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB959F76162E1CF40087996F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB959F78162E1CF40087996F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB959F7A162E1CF40087996F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB959F7E162E1CF40087996F /* VCRadioButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VCRadioButton-Info.plist"; sourceTree = "<group>"; };
+		DB959F80162E1CF40087996F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB959F82162E1CF40087996F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB959F84162E1CF40087996F /* VCRadioButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VCRadioButton-Prefix.pch"; sourceTree = "<group>"; };
+		DB959F85162E1CF40087996F /* VCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCAppDelegate.h; sourceTree = "<group>"; };
+		DB959F86162E1CF40087996F /* VCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCAppDelegate.m; sourceTree = "<group>"; };
+		DB959F88162E1CF40087996F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DB959F8A162E1CF40087996F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DB959F8C162E1CF40087996F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DB959F8F162E1CF40087996F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		DB959F92162E1CF40087996F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		DB959F94162E1CF40087996F /* VCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCViewController.h; sourceTree = "<group>"; };
+		DB959F95162E1CF40087996F /* VCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCViewController.m; sourceTree = "<group>"; };
+		DB959F9C162E1DB60087996F /* VCRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCRadioButton.h; sourceTree = "<group>"; };
+		DB959F9D162E1DB60087996F /* VCRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCRadioButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB959F6F162E1CF40087996F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB959F77162E1CF40087996F /* UIKit.framework in Frameworks */,
+				DB959F79162E1CF40087996F /* Foundation.framework in Frameworks */,
+				DB959F7B162E1CF40087996F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB959F67162E1CF40087996F = {
+			isa = PBXGroup;
+			children = (
+				DB959F9F162E1DBA0087996F /* VCRadioButtonControl */,
+				DB959F7C162E1CF40087996F /* VCRadioButtonDemo */,
+				DB959F75162E1CF40087996F /* Frameworks */,
+				DB959F73162E1CF40087996F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB959F73162E1CF40087996F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB959F72162E1CF40087996F /* VCRadioButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB959F75162E1CF40087996F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB959F76162E1CF40087996F /* UIKit.framework */,
+				DB959F78162E1CF40087996F /* Foundation.framework */,
+				DB959F7A162E1CF40087996F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB959F7C162E1CF40087996F /* VCRadioButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DB959F85162E1CF40087996F /* VCAppDelegate.h */,
+				DB959F86162E1CF40087996F /* VCAppDelegate.m */,
+				DB959F8E162E1CF40087996F /* MainStoryboard_iPhone.storyboard */,
+				DB959F91162E1CF40087996F /* MainStoryboard_iPad.storyboard */,
+				DB959F94162E1CF40087996F /* VCViewController.h */,
+				DB959F95162E1CF40087996F /* VCViewController.m */,
+				DB959F7D162E1CF40087996F /* Supporting Files */,
+			);
+			name = VCRadioButtonDemo;
+			path = VCRadioButton;
+			sourceTree = "<group>";
+		};
+		DB959F7D162E1CF40087996F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB959F7E162E1CF40087996F /* VCRadioButton-Info.plist */,
+				DB959F7F162E1CF40087996F /* InfoPlist.strings */,
+				DB959F82162E1CF40087996F /* main.m */,
+				DB959F84162E1CF40087996F /* VCRadioButton-Prefix.pch */,
+				DB959F88162E1CF40087996F /* Default.png */,
+				DB959F8A162E1CF40087996F /* Default@2x.png */,
+				DB959F8C162E1CF40087996F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB959F9F162E1DBA0087996F /* VCRadioButtonControl */ = {
+			isa = PBXGroup;
+			children = (
+				DB959F9C162E1DB60087996F /* VCRadioButton.h */,
+				DB959F9D162E1DB60087996F /* VCRadioButton.m */,
+			);
+			name = VCRadioButtonControl;
+			path = VCRadioButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB959F71162E1CF40087996F /* VCRadioButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB959F99162E1CF40087996F /* Build configuration list for PBXNativeTarget "VCRadioButton" */;
+			buildPhases = (
+				DB959F6E162E1CF40087996F /* Sources */,
+				DB959F6F162E1CF40087996F /* Frameworks */,
+				DB959F70162E1CF40087996F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VCRadioButton;
+			productName = VCRadioButton;
+			productReference = DB959F72162E1CF40087996F /* VCRadioButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB959F69162E1CF40087996F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VC;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Vincent Cepeda";
+			};
+			buildConfigurationList = DB959F6C162E1CF40087996F /* Build configuration list for PBXProject "VCRadioButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB959F67162E1CF40087996F;
+			productRefGroup = DB959F73162E1CF40087996F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB959F71162E1CF40087996F /* VCRadioButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB959F70162E1CF40087996F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB959F81162E1CF40087996F /* InfoPlist.strings in Resources */,
+				DB959F89162E1CF40087996F /* Default.png in Resources */,
+				DB959F8B162E1CF40087996F /* Default@2x.png in Resources */,
+				DB959F8D162E1CF40087996F /* Default-568h@2x.png in Resources */,
+				DB959F90162E1CF40087996F /* MainStoryboard_iPhone.storyboard in Resources */,
+				DB959F93162E1CF40087996F /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB959F6E162E1CF40087996F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB959F83162E1CF40087996F /* main.m in Sources */,
+				DB959F87162E1CF40087996F /* VCAppDelegate.m in Sources */,
+				DB959F96162E1CF40087996F /* VCViewController.m in Sources */,
+				DB959F9E162E1DB60087996F /* VCRadioButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB959F7F162E1CF40087996F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB959F80162E1CF40087996F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB959F8E162E1CF40087996F /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB959F8F162E1CF40087996F /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		DB959F91162E1CF40087996F /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB959F92162E1CF40087996F /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB959F97162E1CF40087996F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB959F98162E1CF40087996F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB959F9A162E1CF40087996F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VCRadioButton/VCRadioButton-Prefix.pch";
+				INFOPLIST_FILE = "VCRadioButton/VCRadioButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB959F9B162E1CF40087996F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VCRadioButton/VCRadioButton-Prefix.pch";
+				INFOPLIST_FILE = "VCRadioButton/VCRadioButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB959F6C162E1CF40087996F /* Build configuration list for PBXProject "VCRadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB959F97162E1CF40087996F /* Debug */,
+				DB959F98162E1CF40087996F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB959F99162E1CF40087996F /* Build configuration list for PBXNativeTarget "VCRadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB959F9A162E1CF40087996F /* Debug */,
+				DB959F9B162E1CF40087996F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB959F69162E1CF40087996F /* Project object */;
+}
