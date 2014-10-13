@@ -95,13 +95,6 @@
 }
 
 #pragma mark - initializers
-- (id)init{
-    if ((self = [super init])){
-        [self _baseInit];
-    }
-    return self;
-}
-
 - (id)initWithCoder:(NSCoder *)aDecoder{
     if ((self = [super initWithCoder:aDecoder])){
         [self _baseInit];
